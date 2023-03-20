@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferme de la fougère</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul class="liste-nav">
+            <li class="item-nav">
+                <a href="#home">Accueil</a>
+            </li>
+            <li class="item-nav">
+                <a href="#presentation">Qui suis je?</a>
+            </li>
+            <li class="item-nav">
+                <a href="#contact">Contact</a>
+            </li>
+        </ul>
+        <img src="images/menu.svg" alt="logoMenu" class="logoMenu">
+    </nav>
+
+    <!-- Acceuil -->
+<div class="accueil" id="home">
+    <img src="images/logo.jpg" alt="image fond serre" class="logoFerme">
+    <h1>Bienvenu a la ferme de la fougère</h1>
+    <p>Produits locaux et de saison</p>
+    <a href="#presentation" class="btn-accueil">En savoir plus</a>
+</div>
+
+<!-- Section Présentation -->
+
+<section class="section-presentation" id="presentation">
+    <h2>Qui suis je ?</h2>
+    <div class="bloc bloc-left bloc1">
+        <div class="bloc-txt-left">
+            <h3>Dommarien</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia id est similique quibusdam dolore excepturi autem sed impedit iusto ratione fugit reiciendis illum temporibus eius optio, unde quisquam odit maxime.</p>
+        </div>
+    </div>
+<img src="images/dommé.jpg" alt="" class="img-grid img-grid1">
+
+    <div class="bloc bloc-right bloc2">
+        <div class="bloc-txt-right">
+            <h3>Valentin RONDOT</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia id est similique quibusdam dolore excepturi autem sed impedit iusto ratione fugit reiciendis illum temporibus eius optio, unde quisquam odit maxime.</p>
+        </div>
+    </div>
+<img src="images/IMG_1921.jpg" alt="" class="img-grid img-grid2">
+
+    <div class="bloc bloc-left bloc3">
+        <div class="bloc-txt-left">
+            <h3>La Ferme</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officia id est similique quibusdam dolore excepturi autem sed impedit iusto ratione fugit reiciendis illum temporibus eius optio, unde quisquam odit maxime.</p>
+        </div>
+    </div>
+<img src="images/entree.jpg" alt="" class="img-grid img-grid3">
+
+<div class="ligne-gauche"></div>
+<div class="ligne-droite"></div>
+
+</section>
+
+<!-- COntact -->
+
+<section class="contact" id="contact">
+    <h2><strong>Rentrons</strong> en contact
+    </h2>
+    <div class="container-form">
+        <form action="post" class="form-bloc">
+            <div class="form-group">
+                <label for="prenom">Entrez votre prénom</label>
+                <input type="text" placeholder="Prénom" required id="prenom">
+            </div>
+            <div class="form-group">
+                <label for="nom">Entrez votre Nom</label>
+                <input type="text" placeholder="nom" required id="prenom">
+            </div>
+            <div class="form-group">
+                <textarea  id="txt" placeholder="Votre message" re``></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="ENVOYER" class="button-sub">
+        </form>
+    </div>
+</section>
+
+<footer></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
